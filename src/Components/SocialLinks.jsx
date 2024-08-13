@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://LinkedIn.com",
+      href: "https://www.linkedin.com/in/pragatidahal001/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/PragatiDahal",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/_.pragati.d_/",
     },
     {
       id: 4,
