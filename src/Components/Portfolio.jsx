@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import runway from "../assets/runway.png";
-import cake from "../assets/cake.png";
+import cake from "../assets/Cake.png";
 import tech from "../assets/tech.png";
 import aero from "../assets/aerospace.png";
 import pnet from "../assets/pnet.png";
-import anta from "../assets/anta.png";
+import anta from "../assets/Anta.png";
 import school from "../assets/schooool.png";
 import glam from "../assets/glam.png";
 import micasa from "../assets/micasa.png";
