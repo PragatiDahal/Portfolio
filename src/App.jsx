@@ -20,7 +20,7 @@ function App() {
     <Portfolio/>
     <Experience/>
     <Contact/>
-    <Footer/>
+    {/* <Footer/> */}
     
     <SocialLinks/>
       </>
