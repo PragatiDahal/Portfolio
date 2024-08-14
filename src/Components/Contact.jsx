@@ -6,7 +6,7 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black p-4 text-white"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full mt-16"> {/* Added margin-top here */}
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
@@ -22,13 +22,13 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              palceholder="Enter your name"
+              placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
-              palceholder="Enter your email"
+              placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea

@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
-      <section className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+      <section className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800  left-0">
         <div
           name="home"
           className="w-full h-full flex flex-col md:flex-row items-center justify-between px-4"
