@@ -17,7 +17,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/bjjeqoxb"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
@@ -38,9 +38,8 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounde-md hover:scale-110 duration-300">
-              {" "}
-              let's talk{" "}
+            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+              let's talk
             </button>
           </form>
         </div>
