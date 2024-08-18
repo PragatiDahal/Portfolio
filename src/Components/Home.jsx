@@ -12,7 +12,7 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full md:w-1/2 items-start">
           <h2 className="text-4xl sm:text-5xl font-bold text-white text-left max-w-lg">
-            I am a UI/UX designer and Front-end Developer
+            UI/UX designer and Front-end Developer
           </h2>
           <p
             className="text-gray-500 py-4 max-w-lg text-left"
@@ -52,4 +52,3 @@ const Home = () => {
 };
 
 export default Home;
-
