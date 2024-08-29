@@ -56,13 +56,13 @@ const Services = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline" >
             Services
           </p>
           <p className="py-6">These are the services I provide</p>
         </div>
 
-        <div className="w-full grid grid-cols sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-8">
+        <div className="w-full grid grid-cols sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-8" >
           {techs.map(({ id, icon, title, style, description }) => (
             <div
               key={id}

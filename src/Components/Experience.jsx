@@ -60,15 +60,15 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-0 pt-20 mt-20">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline" data-aos="zoom-in-down"data-aos-duration="3000">
             Experience
           </p>
-          <p className="py-6">
+          <p className="py-6" data-aos="zoom-in-down"data-aos-duration="3000">
             These are the technologies I have worked with
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-8" data-aos="zoom-in-down"data-aos-duration="3000">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

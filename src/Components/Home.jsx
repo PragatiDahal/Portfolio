@@ -11,12 +11,12 @@ const Home = () => {
         className="w-full h-full flex flex-col md:flex-row items-center justify-between px-4 pb-20"
       >
         <div className="flex flex-col justify-center h-full md:w-1/2 items-start">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white text-left max-w-lg">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white text-left max-w-lg " >
             UI/UX designer and Front-end Developer
           </h2>
           <p
             className="text-gray-500 py-4 max-w-lg text-left"
-            style={{ textAlign: "justify" }}
+            style={{ textAlign: "justify" }} 
           >
             I am a UI/UX designer and Front-end Developer with a focus on
             creating beautiful and functional user experiences. I am passionate
@@ -28,7 +28,7 @@ const Home = () => {
             <Link
               to="portfolio"
               smooth
-              duration={500}
+              duration={500} 
               className="group flex items-center mt-4 text-white px-6 py-3 my-3 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
               Portfolio
@@ -39,7 +39,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex justify-center" >
           <img
             src={image}
             alt="my profile"

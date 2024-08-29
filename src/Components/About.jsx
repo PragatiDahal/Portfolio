@@ -1,6 +1,12 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="min-h-screen w-full bg-gradient-to-b from-gray-800 to-black pt-10">
       <div
@@ -9,11 +15,11 @@ const About = () => {
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500" data-aos="zoom-in-down"data-aos-duration="3000">
               About
             </p>
           </div>
-          <p className="text-xl mt-10 text-justify">
+          <p className="text-xl mt-10 text-justify" data-aos="zoom-in-down"data-aos-duration="3000">
             I'm a passionate Computer Science student with a keen interest in
             UI/UX design and front-end development. I love creating visually
             appealing and user-friendly digital experiences that not only look
@@ -27,7 +33,7 @@ const About = () => {
             grow both as a designer and a developer.
           </p>
           <br />
-          <p className="text-xl text-justify">
+          <p className="text-xl text-justify" data-aos="zoom-in-down"data-aos-duration="3000">
             You should hire me because I bring over a year of focused experience
             in UI/UX design and front-end web development, with a strong emphasis on crafting
             visually appealing and highly functional websites. My proficiency in
