@@ -8,7 +8,7 @@ import anta from "../assets/Anta.png";
 import school from "../assets/schooool.png";
 import glam from "../assets/glam.png";
 import micasa from "../assets/micasa.png";
-
+import ecommerce from "../assets/ecommerce.png"
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -81,6 +81,13 @@ const Portfolio = () => {
       category: "UI/UX",
       demoLink: "",
       codeLink: "",
+    },
+    {
+      id: 10,
+      src: ecommerce,
+      category: "Web Design",
+      demoLink: "https://ecommerce-dusky-one-45.vercel.app/",
+      codeLink: "https://github.com/PragatiDahal/ecommerce",
     },
   ];
 
