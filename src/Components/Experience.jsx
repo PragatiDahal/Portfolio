@@ -6,6 +6,9 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import figma from "../assets/figma.png";
 import github from "../assets/github.png";
+import mongodb from"../assets/mongodb.png";
+import express from"../assets/express.png";
+import node from"../assets/node.webp";
 
 const Experience = () => {
   const techs = [
@@ -50,6 +53,24 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 8,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 9,
+      src: express,
+      title: "Express",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-300",
     },
   ];
 
