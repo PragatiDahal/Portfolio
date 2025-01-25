@@ -6,7 +6,7 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import figma from "../assets/figma.png";
 import github from "../assets/github.png";
-import mongodb from"../assets/mongodb.png";
+import mongodb from"../assets/Mongodb.png";
 import express from"../assets/express.png";
 import node from"../assets/node.webp";
 
