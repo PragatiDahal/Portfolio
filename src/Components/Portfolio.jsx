@@ -21,24 +21,14 @@ const PortfolioCard = ({ src, demoLink, codeLink, altText }) => {
       />
       <div className="flex items-center justify-center">
         {demoLink && (
-          <a
-            href={demoLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-1/2"
-          >
+          <a href={demoLink} target="_blank" rel="noopener noreferrer" className="w-1/2">
             <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
               Demo
             </button>
           </a>
         )}
         {codeLink && (
-          <a
-            href={codeLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-1/2"
-          >
+          <a href={codeLink} target="_blank" rel="noopener noreferrer" className="w-1/2">
             <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
               Code
             </button>
@@ -48,6 +38,7 @@ const PortfolioCard = ({ src, demoLink, codeLink, altText }) => {
     </div>
   );
 };
+
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -157,24 +148,17 @@ const Portfolio = () => {
       : portfolio.filter((item) => item.category === selectedCategory);
 
   return (
-    <div
-      name="portfolio"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white min-h-screen"
-    >
+    <div className="bg-gradient-to-b from-gray-800 to-black w-full text-white min-h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-10">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
-          </p>
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
           <p className="py-6">Check out some of my work here</p>
           <div className="flex justify-center">
             {categories.map((category) => (
               <button
                 key={category}
                 className={`mx-2 px-4 py-2 border-b-4 ${
-                  selectedCategory === category
-                    ? "border-cyan-600 text-cyan-600 font-bold"
-                    : "border-transparent text-white"
+                  selectedCategory === category ? "border-cyan-600 text-cyan-600 font-bold" : "border-transparent text-white"
                 }`}
                 onClick={() => setSelectedCategory(category)}
               >
@@ -185,21 +169,9 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 sm:px-0">
-          {filteredPortfolio.length > 0 ? (
-            filteredPortfolio.map(({ id, src, demoLink, codeLink, altText }) => (
-              <PortfolioCard
-                key={id}
-                src={src}
-                demoLink={demoLink}
-                codeLink={codeLink}
-                altText={altText}
-              />
-            ))
-          ) : (
-            <p className="text-center text-gray-400 col-span-full">
-              No portfolio items found in this category.
-            </p>
-          )}
+          {filteredPortfolio.map(({ id, src, demoLink, codeLink, altText }) => (
+            <PortfolioCard key={id} src={src} demoLink={demoLink} codeLink={codeLink} altText={altText} />
+          ))}
         </div>
       </div>
     </div>
