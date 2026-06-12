@@ -12,16 +12,16 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full md:w-1/2 items-start">
           <h2 className="text-4xl sm:text-5xl font-bold text-white text-left max-w-lg " >
-            UI/UX designer and Front-end Developer
+            Computer Science Graduate | Aspiring Data Scientist
           </h2>
           <p
             className="text-gray-500 py-4 max-w-lg text-left"
             style={{ textAlign: "justify" }} 
           >
-            I am a UI/UX designer and Front-end Developer with a focus on
-            creating beautiful and functional user experiences. I am passionate
-            about designing and developing interfaces that are both visually
-            appealing and user-friendly.
+            I'm a Computer Science graduate with a background in full-stack
+            development and UI/UX design, now focused on data science. I'm
+            interested in turning raw data into insights that actually help
+            people make better decisions.
           </p>
 
           <div className="flex justify-start">
