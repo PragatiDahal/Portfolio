@@ -1,51 +1,50 @@
 import React from "react";
-import { FaMobileAlt, FaFigma, FaSearch, FaBullhorn } from "react-icons/fa";
-import { MdOutlineLaptopWindows } from "react-icons/md";
-import { HiMiniCodeBracket } from "react-icons/hi2";
+import { FaFigma, FaCode, FaPython } from "react-icons/fa";
+import { TbChartBar, TbChartDots, TbMessageCircle } from "react-icons/tb";
 
 const Services = () => {
   const techs = [
     {
       id: 1,
-      icon: <FaMobileAlt size={40} />,
-      title: "Responsive Design",
+      icon: <TbChartBar size={40} />,
+      title: "Data Analysis",
       style: "shadow-cyan-800",
-      description: "I specialize in crafting responsive web designs that deliver a seamless user experience across a wide range of devices, from desktops to mobile phones.",
+      description: "I work with real-world datasets to clean, explore, and extract meaningful patterns using Python and pandas.",
     },
     {
       id: 2,
-      icon: <MdOutlineLaptopWindows size={40} />,
-      title: "Web Design",
+      icon: <FaPython size={40} />,
+      title: "Machine Learning",
       style: "shadow-blue-800",
-      description: "I provide professional web design services that blend aesthetics with functionality, resulting in visually striking and user-friendly websites.",
+      description: "I build and evaluate predictive models, such as logistic regression and random forest, and interpret what their results actually mean.",
     },
     {
       id: 3,
-      icon: <FaFigma size={40} />,
-      title: "UI/UX Design",
+      icon: <TbChartDots size={40} />,
+      title: "Data Visualization",
       style: "shadow-cyan-800",
-      description: "I offer professional UI/UX design services that seamlessly merge aesthetics with usability, creating intuitive and visually engaging user experiences.",
+      description: "I turn analysis into clear visual insights using matplotlib, seaborn, and dashboard tools.",
     },
     {
       id: 4,
-      icon: <FaSearch size={40} />,
-      title: "SEO",
+      icon: <TbMessageCircle size={40} />,
+      title: "Sentiment Analysis",
       style: "shadow-blue-800",
-      description: "I provide SEO marketing services that boost your online presence and visibility, driving organic traffic and optimizing your website's potential.",
+      description: "I apply NLP techniques to extract insights from unstructured text data, such as customer reviews.",
     },
     {
       id: 5,
-      icon: <HiMiniCodeBracket size={40} />,
-      title: "Clean Code",
+      icon: <FaCode size={40} />,
+      title: "Full-Stack Development",
       style: "shadow-cyan-800",
-      description: "I provide clean, well-organized code that guarantees your web projects are maintainable and scalable.",
+      description: "I build web applications using React, Node.js, Express, and MongoDB.",
     },
     {
       id: 6,
-      icon: <FaBullhorn size={40} />,
-      title: "Great Support",
+      icon: <FaFigma size={40} />,
+      title: "UI/UX Design",
       style: "shadow-blue-800",
-      description: "I deliver top-notch support services, ensuring prompt assistance and solutions to enhance the performance of your projects and boost user satisfaction.",
+      description: "I design intuitive interfaces using Figma, with a strong focus on usability.",
     },
   ];
 

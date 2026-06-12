@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import churn from "../assets/tenure_churn.png";
 import runway from "../assets/runway.png";
 import cake from "../assets/Cake.png";
 import tech from "../assets/tech.png";
@@ -8,7 +9,7 @@ import anta from "../assets/Anta.png";
 import school from "../assets/schooool.png";
 import glam from "../assets/glam.png";
 import micasa from "../assets/micasa.png";
-import ecommerce from "../assets/ecommerce.png";
+import ecommerce from "../assets/stitch.png";
 import hostelhub from "../assets/hostelhub.png";
 
 const PortfolioCard = ({ src, demoLink, codeLink, altText }) => {
@@ -54,6 +55,30 @@ const Portfolio = () => {
 
   const portfolio = [
     {
+      id: 0,
+      src: churn,
+      category: "Data Science",
+      demoLink: "https://github.com/PragatiDahal/customer-churn-prediction",
+      codeLink: "https://github.com/PragatiDahal/customer-churn-prediction",
+      altText: "Customer Churn Prediction Project",
+    },
+    {
+      id: 11,
+      src: hostelhub,
+      category: "Web Design",
+      demoLink: "https://hostel-hub-dun.vercel.app/",
+      codeLink: "https://github.com/PragatiDahal/HostelHub",
+      altText: "Hostel Hub - Hostel Recommendation",
+    },
+    {
+      id: 10,
+      src: ecommerce,
+      category: "Web Design",
+      demoLink: "https://ecommerce-dusky-one-45.vercel.app/",
+      codeLink: "https://github.com/PragatiDahal/ecommerce",
+      altText: "&Stitch - E-commerce with Dashboards",
+    },
+    {
       id: 1,
       src: runway,
       category: "Web Design",
@@ -69,14 +94,14 @@ const Portfolio = () => {
       codeLink: "https://github.com/PragatiDahal/cakeshop",
       altText: "Cake Shop Website",
     },
-    {
-      id: 3,
-      src: tech,
-      category: "Web Design",
-      demoLink: "https://techwebsite-eight.vercel.app/",
-      codeLink: "https://github.com/PragatiDahal/techwebsite",
-      altText: "Tech Website",
-    },
+    // {
+    //   id: 3,
+    //   src: tech,
+    //   category: "Web Design",
+    //   demoLink: "https://techwebsite-eight.vercel.app/",
+    //   codeLink: "https://github.com/PragatiDahal/techwebsite",
+    //   altText: "Tech Website",
+    // },
     {
       id: 4,
       src: aero,
@@ -131,25 +156,9 @@ const Portfolio = () => {
       codeLink: "",
       altText: "MiCasa UI/UX Design",
     },
-    {
-      id: 10,
-      src: ecommerce,
-      category: "Web Design",
-      demoLink: "https://ecommerce-dusky-one-45.vercel.app/",
-      codeLink: "https://github.com/PragatiDahal/ecommerce",
-      altText: "E-commerce Website",
-    },
-    {
-      id: 11,
-      src: hostelhub,
-      category: "MERN",
-      demoLink: "https://hostel-hub-dun.vercel.app/",
-      codeLink: "https://github.com/PragatiDahal/HostelHub",
-      altText: "Hostel Hub MERN Application",
-    },
   ];
 
-  const categories = ["All", "Web Design", "UI/UX", "MERN"];
+  const categories = ["All", "Data Science", "Web Design", "UI/UX"];
 
   const filteredPortfolio =
     selectedCategory === "All"
